@@ -8,6 +8,7 @@ import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import QuizBackground from '../src/components/QuizBackground';
+import QuizLogo from '../src/components/QuizLogo';
 
 // const BackgroungImage = styled.div`
 //   background-image: url(${db.bg});
@@ -33,13 +34,14 @@ export default function Home() {
 
   return (
     <QuizBackground backgroundImage={db.bg}>
+      <Head>
+        <title>JJBAQuiz</title>
+      </Head>
       <QuizContainer>
-        <Head>
-          <title>JJBAQuiz</title>
-        </Head>
+        <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>JoJo&apos;s Bizarre Quiz</h1>
+            <h1>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={(e) => {
