@@ -1,4 +1,7 @@
-import styled from 'styled-components'
+import React, { useState } from 'react';
+import styled from 'styled-components';
+import Head from 'next/head';
+import { useRouter } from 'next/router';
 
 import db from '../db.json';
 import Widget from '../src/components/Widget';
@@ -25,15 +28,36 @@ export const QuizContainer = styled.div`
 `;
 
 export default function Home() {
+  const router = useRouter();
+  const [name, setName] = useState('');
+
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
+        <Head>
+          <title>JJBAQuiz</title>
+        </Head>
         <Widget>
           <Widget.Header>
-            <h1>JoJo's Bizarre Quiz</h1>
+            <h1>JoJo&apos;s Bizarre Quiz</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>Descrição</p>
+            <form onSubmit={(e) => {
+              e.preventDefault();
+              router.push(`/quiz?name${name}`);
+            }}
+            >
+              <input
+                onChange={(e) => {
+                  setName(e.target.value);
+                }}
+                placeholder=""
+              />
+              <button type="submit" disabled={name.length === 0}>
+                Jogar
+                { name }
+              </button>
+            </form>
           </Widget.Content>
         </Widget>
         <Widget>
@@ -46,5 +70,5 @@ export default function Home() {
       </QuizContainer>
       <GitHubCorner projectUrl="" />
     </QuizBackground>
-  )
+  );
 }
