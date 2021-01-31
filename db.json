@@ -4,25 +4,80 @@
   "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
+      "image": "https://www.wallpapertip.com/wmimgs/90-908628_jojos-bizarre-adventure-all-dios.jpg",
+      "title": "Entre os oito protagonistas da série, qual foi o primeiro a, canonicamente, nunca ser chamado pelo apelido de \"JoJo\"?",
+      "answer": 1,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "Joseph Joestar",
+        "Giorno Giovanna",
+        "Josuke Higashikata (Parte 4)",
+        "Jolyne Cujo"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
-      "answer": 0,
+      "image": "https://i.pinimg.com/originals/af/ca/76/afca7676cb36bedf4633978f0cc0754d.jpg",
+      "title": "Quais são, respectivamente, os nomes das três bombas que se ativam através da stand de Yoshikage Kira?",
+      "answer": 2,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+        "Sheer Heart Attack, Killer Queen e Stray Cat",
+        "Killer Queen, Sheer Heart Attack e Stray Cat ",
+        "Killer Queen, Sheer Heart Attack e Bites The Dust",
+        "Killer Queen, Stray Cat e Bites The Dust"
+      ]
+    },
+    {
+      "image": "https://i.pinimg.com/originals/85/b5/70/85b57007ae46320f54376f71f5ed9484.jpg",
+      "title": "Entre o elenco principal parte 5, quais são os membros que, no fim da história, continuam vivos?",
+      "answer": 1,
+      "alternatives": [
+        "Giorno Giovanna, Bruno Buccellati, Trish Una e Narancia Ghirga",
+        "Giorno Giovanna, Trish Una, Guido Mista e Pannacotta Fugo",
+        "Giorno Giovanna, Bruno Buccellati e Guido Mista",
+        "Bruno Buccellati, Trish Una, Leone Abbachio, Guido Mista e Pannacotta Fugo"
+      ]
+    },
+    {
+      "image": "https://ovicio.com.br/wp-content/uploads/2019/01/20190131-dio_brando_the_world-jump-force.png",
+      "title": "De acordo com Dio Brando, qual foi a stand mais fraca já encontrada por ele?",
+      "answer": 3,
+      "alternatives": [
+        "Hey Ya!",
+        "Beach Boy",
+        "Hermit Purple",
+        "Survivor"
+      ]
+    },
+    {
+      "image": "https://static.jojowiki.com/images/9/9c/latest/20191015213432/AltDiegoat1.jpg",
+      "title": "Quais personagens, respectivamente, foram responsáveis pelas mortes das duas versões de Diego Brando",
+      "answer": 3,
+      "alternatives": [
+        "Gyro Zeppeli e Johnny Joestar!",
+        "Johnny Joestar e Gyro Zeppeli",
+        "Funny Valentine e Johnny Joestar",
+        "Funny Valentine e Lucy Steel"
+      ]
+    },
+    {
+      "image": "https://64.media.tumblr.com/523dcbe06335d6a582473c4ae5066571/tumblr_prosl548911xgipmzo1_500.gif",
+      "title": "Como se origina o apelido \"JoJo\" para o personagem Josuke Higashikata (Parte 4)?",
+      "answer": 1,
+      "alternatives": [
+        "Não é dada uma explicação na história",
+        "Alguns estudantes criam o apelido a partir dos kanjis do nome \"Josuke\"",
+        "Jotaro cria o apelido ao revelar que Josuke é um Joestar",
+        "Joseph cria o apelido ao revelar que Josuke é um Joestar"
+      ]
+    },
+    {
+      "image": "https://danbooru.donmai.us/data/__enrico_pucci_and_made_in_heaven_jojo_no_kimyou_na_bouken_and_1_more_drawn_by_noonvincent__59fbe038c5524542c116fb0b996895f3.jpg",
+      "title": "Perto do final da parte 6, quais as consequências causadas pela stand Made in Heaven de Enrico Pucci?",
+      "answer": 2,
+      "alternatives": [
+        "Pucci é capaz de parar o tempo e derrotar seus inimigos",
+        "O universo é resetado, causando a morte de todos, com exceção do próprio Pucci",
+        "O universo é resetado sem causar a morte de ninguém",
+        "Pucci é capaz de ressuscitar Dio, o antigo inimigo da linhagem Joestar"
       ]
     }
   ],
